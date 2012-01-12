@@ -9,10 +9,16 @@ gem 'sqlite3'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'paperclip'
 end
 
 group :development do
   gem 'annotate'
+end
+
+group :test do
+  gem 'factory_girl_rails','1.0'
+  gem 'webrat'
 end
 
 # Use unicorn as the web server
