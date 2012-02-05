@@ -39,13 +39,22 @@ a:hover {
 }
 
 a:visited {
-  color: #069;
+  color: #331A00;
 }
 
 /* Navigation */
 
 header nav{
-  float: right;
+/*  float: right;*/
+text-align: right;
+}
+
+header nav ul li a {
+    color: #331A00;
+}
+
+header nav ul li a:visited {
+    color: #331A00;
 }
 
 footer{
@@ -82,9 +91,9 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a:visited {
-  color: #09c;
-}
+/*nav ul li a:visited {
+  color: #33FF00;
+}*/
 
 nav ul li a:hover {
   text-decoration: underline;
