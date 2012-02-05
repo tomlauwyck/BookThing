@@ -1,6 +1,9 @@
 BookThing::Application.routes.draw do
+  get "books/new"
+
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
+  resources :books
   
   match '/signin',  :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'

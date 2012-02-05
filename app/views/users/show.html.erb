@@ -7,10 +7,14 @@
     <td>
       <div class="sidebar round">
         <strong>Name</strong> <%=  @user.name %><br />
-        <strong>URL</strong> <%= link_to user_path(@user), @user %>
-        
+        <strong>URL</strong> <%= link_to user_path(@user), @user %><br />     
+        <strong>Available actions:</strong><br />
+        <ul>
+          <li>
+            <%= link_to "Add book to database", new_book_path %>
+          </li>
+        </ul>
       </div>
     </td>
   </tr>
-
 </table>
