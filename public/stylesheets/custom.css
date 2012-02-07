@@ -127,3 +127,35 @@ a.signup_button {
     vertical-align: top;
     padding: 10px 10px 10px 10px;
 }
+
+#error_explanation {
+  width: 100%;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 15px;
+  margin: -7px;
+  background-color: #c00;
+  color: #E8E8E8;
+}
+
+#error_explanation p {
+  color: #333;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
